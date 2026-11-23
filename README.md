@@ -54,3 +54,7 @@ At session start, Claude suggests `/gravitee-mcp:configure` when nothing is conf
 - An organization that fails to start (bad URL, offline) only breaks its own calls.
 
 The bundled `gravitee` skill tells Claude how to query logs and analytics (UTC time ranges, logging caveats, confirmation before write tools).
+
+## License
+
+MIT, see [LICENSE](LICENSE).

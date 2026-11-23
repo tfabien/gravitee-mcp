@@ -2,6 +2,7 @@
   "name": "gravitee-mcp",
   "description": "Official Gravitee APIM MCP server (Management API v2): analytics, logs and API configuration of the gateway, for several tenants/environments - read-only. Configure with /gravitee-mcp:configure.",
   "version": "0.9.1",
+  "license": "MIT",
   "author": {
     "name": "tfabien"
   },
