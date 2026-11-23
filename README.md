@@ -12,6 +12,14 @@ It wraps the official [`@gravitee/apim-mcp-server`](https://www.npmjs.com/packag
 
 ## Installation
 
+Let Claude do it: paste this into a Claude Code session (details in [INSTALL.md](INSTALL.md)):
+
+```
+Install the gravitee-mcp plugin by following https://raw.githubusercontent.com/tfabien/gravitee-mcp/main/INSTALL.md
+```
+
+Or install it manually.
+
 The repository is a single-plugin marketplace. In Claude Code:
 
 ```
