@@ -1,0 +1,12 @@
+{
+  "name": "gravitee-mcp",
+  "owner": { "name": "tfabien" },
+  "description": "Gravitee APIM MCP plugin for Claude Code.",
+  "plugins": [
+    {
+      "name": "gravitee-mcp",
+      "source": "./",
+      "description": "Gravitee APIM MCP server (Management API v2) for several tenants and environments, read-only by default."
+    }
+  ]
+}

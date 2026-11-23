@@ -1,0 +1,4 @@
+node_modules/
+*.log
+.env
+gravitee-mcp.json
