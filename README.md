@@ -29,6 +29,30 @@ The repository is a single-plugin marketplace. In Claude Code:
 
 Restart Claude Code or run `/reload-plugins` after installing.
 
+## Getting a token and the Management API URL
+
+Screenshots are from Gravitee Cloud, with names replaced by placeholders. Do this once per tenant and environment.
+
+### Personal access token
+
+1. Open the API Management console of the environment (in Gravitee Cloud: Cockpit, **Topology**, the environment, **Login to API Management**).
+2. Click your avatar at the top right, then **My Account**.
+3. In **Personal access tokens**, click **Generate token**, give it a name and copy the value. It is shown only once.
+
+![Personal access tokens in My Account](docs/images/personal-access-tokens.png)
+
+The token has the same rights as your user, so use an account with read-only roles when you only need analytics and logs.
+
+### Management API URL
+
+1. In Gravitee Cloud, open Cockpit, **Topology**, the organization, the environment, then **Settings**, **Access Points**.
+2. Copy the **Portal API** host, for example `your-env-your-tenant.mgmt.apim.your-account.gravitee.cloud`.
+3. The URL to configure is `https://` + that host + `/management/v2`.
+
+![Access Points page showing the Portal API host](docs/images/access-points.png)
+
+Self-hosted APIM: use the public URL of your Management API followed by `/management/v2`. Ask your administrator if you do not know it.
+
 ## Configuration
 
 Run **`/gravitee-mcp:configure`**. It opens a local page (bound to 127.0.0.1, protected by a random key) with:
