@@ -19,7 +19,7 @@ The repository is a single-plugin marketplace. In Claude Code:
 /plugin install gravitee-mcp@gravitee-mcp
 ```
 
-The repository is private: `git` must be authenticated for GitHub (for example with `gh auth login`). Restart Claude Code or run `/reload-plugins` after installing.
+Restart Claude Code or run `/reload-plugins` after installing.
 
 ## Configuration
 
